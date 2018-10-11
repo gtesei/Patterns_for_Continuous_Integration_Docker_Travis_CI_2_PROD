@@ -66,15 +66,15 @@ deploy:
 
 ### How to encrypt password of Docker Hub on .travis.yml 
 
-![Howto Encrypt Password](./img/encrypt.PNG)
+![Howto Encrypt Password](https://raw.githubusercontent.com/gtesei/Patterns_for_Continuous_Integration_Docker_Travis_CI_2_PROD/master/img/encrypt.PNG)
 
 ## Travis CI 
 
-![Travis CI](https://raw.githubusercontent.com/gtesei/Patterns_for_Continuous_Integration_Docker_Travis_CI_2_DEV/master/img/travis.PNG)
+![Travis CI](https://raw.githubusercontent.com/gtesei/Patterns_for_Continuous_Integration_Docker_Travis_CI_2_PROD/master/img/travis.PNG)
 
 ## Docker Registry [Docker Hub]
 
-![Docker Hub](https://raw.githubusercontent.com/gtesei/Patterns_for_Continuous_Integration_Docker_Travis_CI_2_DEV/master/img/Docker_Hub.PNG)
+![Docker Hub](https://raw.githubusercontent.com/gtesei/Patterns_for_Continuous_Integration_Docker_Travis_CI_2_PROD/master/img/Docker_Hub.PNG)
 
 ## Useful links   
 
