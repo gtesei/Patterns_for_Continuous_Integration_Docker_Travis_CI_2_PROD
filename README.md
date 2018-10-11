@@ -64,6 +64,10 @@ deploy:
     branch: master
 ```
 
+# How to encrypt password of Docker Hub on .travis.yml 
+
+![Howto Encrypt Password](./img/encrypt.PNG)
+
 ## Travis CI 
 
 ![Travis CI](https://raw.githubusercontent.com/gtesei/Patterns_for_Continuous_Integration_Docker_Travis_CI_2_DEV/master/img/travis.PNG)
