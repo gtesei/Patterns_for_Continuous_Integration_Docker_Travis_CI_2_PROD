@@ -64,7 +64,7 @@ deploy:
     branch: master
 ```
 
-# How to encrypt password of Docker Hub on .travis.yml 
+### How to encrypt password of Docker Hub on .travis.yml 
 
 ![Howto Encrypt Password](./img/encrypt.PNG)
 
