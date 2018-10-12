@@ -10,7 +10,9 @@ This repository is an example of the __Git repository for Docker release__.
 
 Specifically, we create a separate Git repository specifically for the release Dockerfile. This keeps the Docker-specific code, which could be considered a deployment detail, isolated from the actual software. Developers can continue working on the source software as usual, while the production Docker image is developed separately.
 
-When a new development release (e.g. _0.3.9.dev0_) is ready and tested for production (see [Patterns for Continuous Integration with Docker using Travis CI 2 - Dev. Repo](https://github.com/gtesei/Patterns_for_Continuous_Integration_Docker_Travis_CI_2_DEV) for more details), someone updates consequently the requirements.txt file and commits on master. In this way a new  
+When a new development release (e.g. _0.3.9.dev0_) is ready and tested for production (see [Patterns for Continuous Integration with Docker using Travis CI 2 - Dev. Repo](https://github.com/gtesei/Patterns_for_Continuous_Integration_Docker_Travis_CI_2_DEV) for more details), someone updates consequently the requirements.txt file and commits on master. In this way:
+- Travis CI builds, tests and packages the software, 
+- Travis CI does two new docker development images, e.g. _0.3.9.dev0_ (the image of the development release tagged for production, for archiving purpouse) and _latest_ (the production image of the project), on the Docker Registry, e.g. [Docker Hub](https://hub.docker.com).
 
 ## requirements.txt  
  
