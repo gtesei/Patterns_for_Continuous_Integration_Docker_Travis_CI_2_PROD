@@ -2,7 +2,7 @@
 
 [![Build Status](https://api.travis-ci.org/gtesei/Patterns_for_Continuous_Integration_Docker_Travis_CI_2_PROD.svg?branch=master)](https://travis-ci.org/gtesei/Patterns_for_Continuous_Integration_Docker_Travis_CI_2_PROD)
 
-![Conceptual Schema](https://raw.githubusercontent.com/gtesei/Patterns_for_Continuous_Integration_Docker_Travis_CI_2_PROD/master/img/end-to-end-flow.png)
+![Conceptual Schema](https://raw.githubusercontent.com/gtesei/Patterns_for_Continuous_Integration_Docker_Travis_CI_2_DEV/master/img/end-to-end-flow.png)
 
 __The “Docker repo” pattern__: _create two separate Git repositories: one for Docker release and another for software development. This keeps the Docker-specific code isolated from the actual software. Developers can continue working on the source software as usual, while the production Docker image is developed separately_
 
