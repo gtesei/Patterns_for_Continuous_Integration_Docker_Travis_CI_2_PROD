@@ -1,5 +1,7 @@
 # Patterns for Continuous Integration with Docker using Travis CI 2 - Prod. Repo
 
+__Full story:__ [Patterns of Continuous Integration for Data Science Python Projects](https://medium.com/@gtesei/the-ci-arsenal-that-any-open-source-machine-learning-python-project-should-consider-e34759dd66c4)
+
 [![Build Status](https://api.travis-ci.org/gtesei/Patterns_for_Continuous_Integration_Docker_Travis_CI_2_PROD.svg?branch=master)](https://travis-ci.org/gtesei/Patterns_for_Continuous_Integration_Docker_Travis_CI_2_PROD)
 
 ![Conceptual Schema](https://raw.githubusercontent.com/gtesei/Patterns_for_Continuous_Integration_Docker_Travis_CI_2_DEV/master/img/end-to-end-flow.png)
